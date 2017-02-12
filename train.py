@@ -26,8 +26,8 @@ saver = tf.train.Saver()
 logs_path = './logs'
 # summary_writer = tf.train.SummaryWriter(logs_path, graph=tf.get_default_graph())
 
-epochs = 1000
-batch_size = 100
+epochs = 1500
+batch_size = 50
 
 # train over the dataset about 30 times
 for epoch in range(epochs):
